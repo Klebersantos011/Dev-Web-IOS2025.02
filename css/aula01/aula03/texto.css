@@ -1,0 +1,21 @@
+/* Para usar uma fonte da internet podemos usar o @Import do site especificado. no exemplo abaixo utitilizamos o site google fontes para importar e utilizar uma nova fonte-family*/
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+
+p{
+    font-family: "BBH Sans Bogle", sans-serif;;
+    text-align: center;
+    text-shadow: -10px 20px 5px rgb(207, 47, 26);
+    letter-spacing: 10px;
+}
+/* text-shadow
+1° valor:deslocamento horizontal
+2° valor: deslocamento vertical
+3° valor: desfoque
+4° valor: cor da sombra 
+*/
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
