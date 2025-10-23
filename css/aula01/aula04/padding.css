@@ -1,0 +1,22 @@
+
+
+.quadrado{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3H0YxprUbKtqxOLEQMPSu1ZtNRrKcNS6oag&s");
+    background-repeat: no-repeat;
+    border: 10px solid black;
+    margin-left: 20px;
+    margin-bottom:15px;
+}
+
+#segunda{
+    padding-right: 70px;
+}
+h1{
+    padding-bottom: 20px;
+    border: double black 15px;
+    margin: 0;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
