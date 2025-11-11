@@ -1,0 +1,58 @@
+
+
+:root{
+
+    --corPrincipal: red;
+    --bom: rgb(180, 169, 180);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+
+.quadrado:hover{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(235, 220, 245);
+    transform: rotate(deg); /* Rotaciona 45 graus */
+
+}
+button{
+    width: 78px;
+    height: 79px;
+    background-color: rgb(116, 116, 170);
+    transition: 3.0s ease;
+}
+.button:hover{
+    transform: rotate(deg100);
+    background-color: aliceblue;
+    width: 100px;
+}
+a:link{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+h1{
+    color: var(--corPrincipal);
+}
+
+span{
+    color: var(--bom);
+
+}
+
+#sherek::first-letter{
+    font-size: 50px;
+}
